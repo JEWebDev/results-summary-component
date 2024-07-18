@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution page](https://your-solution-url.com)
-- Live Site URL: [Live site preview](https://your-live-site-url.com)
+- Solution URL: [Solution page](https://www.frontendmentor.io/solutions/results-summary-component-with-html-and-css-xlWff0A8Y4)
+- Live Site URL: [Live site preview](https://jewebdev.github.io/results-summary-component/)
 
 ## My process
 
