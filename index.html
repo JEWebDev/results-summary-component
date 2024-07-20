@@ -12,6 +12,7 @@
       href="./assets/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
     <title>Frontend Mentor | Results summary component</title>
 
     <style></style>
@@ -21,7 +22,7 @@
       <section class="results-section">
         <h1 aria-label="Your result summary">Your result</h1>
         <div class="result-score-container">
-          <p class="result-score"><span>76</span> of 100</p>
+          <p class="result-score"><span id="average-result">0</span> of 100</p>
         </div>
 
         <div class="score-description">
@@ -33,15 +34,7 @@
       </section>
       <section class="summary-section">
         <h2>Summary</h2>
-        <ul>
-          <li class="reaction br">
-            <div class="wrapper">
-              <img src="assets/images/icon-reaction.svg" alt="thunder icon" />
-              <span>Reaction</span>
-            </div>
-            <p class="score"><span>80</span> / 100</p>
-          </li>
-        </ul>
+        <ul id="result-list"></ul>
 
         <button class="continue-btn" id="continue-btn">Continue</button>
       </section>
@@ -56,5 +49,15 @@
         >Juan Esparza</a
       >.
     </div>
+
+    <template id="result-template">
+      <li class="br" id="category-result">
+        <div class="wrapper">
+          <img src="assets/images/icon-reaction.svg" id="category-img" />
+          <span id="category"></span>
+        </div>
+        <p class="score"><span id="category-score"></span> / 100</p>
+      </li>
+    </template>
   </body>
 </html>

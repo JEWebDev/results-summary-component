@@ -175,6 +175,7 @@ main {
     color: var(--Light-lavender);
   }
   .result-score {
+    min-width: 180px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -191,7 +192,7 @@ main {
 
   > .result-score-container {
     background: linear-gradient(var(--Violet-blue), var(--Persian-blue));
-    padding: 1rem 3rem;
+
     border-radius: 50%;
   }
   .score-description {
